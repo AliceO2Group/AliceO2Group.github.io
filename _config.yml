@@ -1,0 +1,34 @@
+# Site settings
+title: ALICE O2 Github Pages
+email: alice-o2-support@cern.ch
+description: > # this means to ignore newlines until "baseurl:"
+  Lean and clean web pages for our GitHub organization,
+  to avoid having it returning 404. Most of the
+  information should still come from https://alice-o2.web.cern.ch
+url: "https://aliceo2group.github.io" # the base hostname & protocol for your site
+categories: [main, infrastructure]
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+menu_header: ALICE O2
+menu:
+  - name: start
+    label: Getting Started
+    items:
+      - name: git
+        label: "Getting O2"
+      - name: building
+        label: "Building O2"
+      - name: running
+        label: "Running O2"
+      - name: links
+        label: "Further material"
+  - name: advanced
+    label: Advanced
+    items:
+      - name: tutorial
+        label: "O2 tutorial"
+      - name: reference
+        label: "Reference docs"
