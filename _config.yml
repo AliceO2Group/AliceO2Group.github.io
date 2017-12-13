@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Lean and clean web pages for our GitHub organization,
   to avoid having it returning 404. Most of the
   information should still come from https://alice-o2.web.cern.ch
+baseurl: ""
 url: "https://aliceo2group.github.io" # the base hostname & protocol for your site
 categories: [main, infrastructure]
 
