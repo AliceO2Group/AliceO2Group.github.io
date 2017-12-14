@@ -26,4 +26,6 @@ model for a wide spectrum of computing facilities, ranging from laptops to the
 complete  O2 system.  Off-the-shelf open  source software  conforming to  open
 standards will be  used as much as possible, either  for the development tools
 or as a basis for the framework itself.
-<strong>ALICE O2 is completely hosted on GitHub</strong>
+
+Find <a href="https://github.com/AliceO2Group">here</a> the ALICE O2 Organisation on Github
+. For the official O2 project pages please go <a href="https://cern.ch/alice-o2">here</a> (requires CERN login).
