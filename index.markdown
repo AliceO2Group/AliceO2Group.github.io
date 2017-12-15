@@ -27,5 +27,6 @@ complete  O2 system.  Off-the-shelf open  source software  conforming to  open
 standards will be  used as much as possible, either  for the development tools
 or as a basis for the framework itself.
 <br/>
-Find <a href="https://github.com/AliceO2Group">here</a> the ALICE O2 Organisation on Github
-. For the official O2 project pages please go <a href="https://cern.ch/alice-o2">here</a> (requires CERN login).
+Find <a href="https://github.com/AliceO2Group">here</a> the ALICE O2 Organisation on Github.
+For the official O2 project pages please go to <a href="http://cern.ch/alice-o2">http://cern.ch/alice-o2</a>,
+sign in with CERN account to get the full page.
