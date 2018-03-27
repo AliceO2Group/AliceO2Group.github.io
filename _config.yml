@@ -13,23 +13,11 @@ categories: [main, infrastructure]
 markdown: kramdown
 highlighter: rouge
 
-menu_header: ALICE O2
+menu_header: ALICE O²
 menu:
   - name: start
-    label: Getting Started
-    items:
-      - name: git
-        label: "Getting O2"
-      - name: building
-        label: "Building O2"
-      - name: running
-        label: "Running O2"
-      - name: links
-        label: "Further material"
-  - name: advanced
-    label: Advanced
-    items:
-      - name: tutorial
-        label: "O2 tutorial"
-      - name: reference
-        label: "Reference docs"
+    label: Quickstart
+  - name: tutorial
+    label: "O² tutorial"
+  - name: doc
+    label: Documentation
