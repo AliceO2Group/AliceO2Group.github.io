@@ -263,3 +263,22 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 .content h1:first-of-type {
   margin-top: 0px;
 }
+
+.content h1 > a, .content h2 > a, .content h3 > a,
+.content h4 > a, .content h5 > a, .content h6 > a {
+  color: #333;
+}
+
+.content h1 > a:hover, .content h2 > a:hover, .content h3 > a:hover,
+.content h4 > a:hover, .content h5 > a:hover, .content h6 > a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.content h1 > a:hover::before, .content h2 > a:hover::before, .content h3 > a:hover::before,
+.content h4 > a:hover::before, .content h5 > a:hover::before, .content h6 > a:hover::before {
+  content: "#";
+  color: lightgray;
+  position: absolute;
+  margin-left: -0.75em;
+}
