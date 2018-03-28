@@ -17,7 +17,5 @@ menu_header: ALICE O²
 menu:
   - name: start
     label: Quickstart
-  - name: tutorial
-    label: "O² tutorial"
   - name: doc
     label: Documentation
