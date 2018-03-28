@@ -23,7 +23,12 @@
   </a>
   <div id="menu">
     <div class="pure-menu custom-restricted-width custom-restricted-height">
-      <a class="pure-menu-heading pure-menu-link" href="{{site.baseurl}}/">{{site.menu_header}}</a>
+
+      <div class="pure-menu-heading">
+        <!-- The ALICE O2 Logo -->
+        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/images/o2logo.png" style="width:50%"/></a>
+      </div>
+
       <ul class="pure-menu-list">
       {% for cat in site.menu %}
         <li class="pure-menu-item menu-item-section menu-item-devided">
