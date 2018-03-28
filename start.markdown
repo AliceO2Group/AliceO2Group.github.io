@@ -3,8 +3,8 @@ title: Getting Started
 layout: main
 ---
 
-Get O²
-======
+Obtain the code
+===============
 
 The ALICE O² Software is hosted on [GitHub](https://github.com) under the
 [AliceO2Group](https://github.com/AliceO2Group/) organization. The core package is
@@ -15,18 +15,18 @@ This means you can obtain the source code by cloning the repository:
     git clone https://github.com/AliceO2Group/AliceO2
 
 There is no need for you to clone the repository manually, this part is covered in our
-[build instructions](#build-o).
+[build instructions](#build).
 
 
-Build O²
-========
+Build
+=====
 
 In order to build the ALICE O² software we use [aliBuild](https://alisw.github.io/alibuild). Check
 out our [build instructions](https://alice-doc.github.io/alice-analysis-tutorial/building/).
 
 
-Run O²
-======
+Run
+===
 
 The simplest way to run `AliceO2` is by using directly our nightly builds from CVMFS. If you have a
 CERN account, you can connect via SSH to `lxplus7.cern.ch` first to have CVMFS available.
@@ -46,8 +46,8 @@ Nightly builds are automatically announced on the <alice-o2-software-support@cer
 Read on the [Get support](#get-support) section to know how to subscribe.
 
 
-Contribute to O²
-================
+Contribute
+==========
 
 Since O² uses the Git version control system it is recommended you follow [our AliPhysics Git
 tutorial](http://alisw.github.io/git-tutorial/) to learn its rudiments.
