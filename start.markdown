@@ -10,6 +10,13 @@ The ALICE O² Software is hosted on [GitHub](https://github.com) under the
 [AliceO2Group](https://github.com/AliceO2Group/) organization. The core package is
 [AliceO2](https://github.com/AliceO2Group/AliceO2).
 
+This means you can obtain the source code by cloning the repository:
+
+    git clone https://github.com/AliceO2Group/AliceO2
+
+There is no need for you to clone the repository manually, this part is covered in our
+[build instructions](#build-o).
+
 
 Build O²
 ========
