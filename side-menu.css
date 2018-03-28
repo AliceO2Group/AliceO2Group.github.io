@@ -99,6 +99,9 @@ appears on the left side of the page.
         border: none;
         padding: 0.6em 0 0.6em 0.6em;
     }
+    #menu .pure-menu-heading a {
+        padding: 0;
+    }
 
     /*
     Remove all background/borders, since we are applying them to #menu.
@@ -118,7 +121,6 @@ appears on the left side of the page.
     /*
     Add that light border to separate items into groups.
     */
-    #menu .pure-menu ul,
     #menu .pure-menu .menu-item-divided {
         border-top: 1px solid #333;
     }
@@ -128,15 +130,14 @@ appears on the left side of the page.
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
             background: #333;
+            text-decoration: none;
         }
 
     /*
     This styles the selected menu item `<li>`.
     */
     #menu .pure-menu-selected,
-    #menu .pure-menu-heading {
-        background: #d41b24;
-    }
+
         /*
         This styles a link within a selected menu item `<li>`.
         */
@@ -144,21 +145,12 @@ appears on the left side of the page.
             color: #fff;
         }
 
-    #menu .pure-menu-heading.pure-menu-link {
-      padding: 8px 0 5px 0;
-    }
-
-    /*
-    This styles the menu heading.
-    */
     #menu .pure-menu-heading {
-        font-size: 120%;
-        color: #fff;
-        margin: 0;
-        font-weight: bolder;
+        background: linear-gradient(to top, #191818, #d41b24);
         text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
-
 
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/
 
