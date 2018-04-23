@@ -60,18 +60,14 @@ most of them are enforced by automatic checks.
 Get support
 ===========
 
-For simple support questions (_e.g. I cannot build O2..._) you can use the
-<alice-o2-software-support@cern.ch> mailing list.
+For simple support questions [please use our Discourse forum](https://alice-talk.web.cern.ch/).
 
-> [Click here to subscribe to alice-o2-software-support@cern.ch](https://e-groups.cern.ch/e-groups/EgroupsSubscription.do?egroupName=alice-o2-software-support)
-
-**Note:** you need to be a registered ALICE member in order to do that.
-
-You might want to [have a look at the mailing list archive](https://groups.cern.ch/group/alice-o2-software-support)
-to avoid posting duplicate questions.
-
-If you have problems subscribing, check with the [ALICE Secretariat](mailto:alice.secretariat@cern.ch)
-if you are correctly registered as ALICE member (just send them an email).
+The first time you connect, you will need to hit the **Sign up** button and use your CERN
+credentials to register. It is easy to browse existing topics in Discourse, and mark the relevant
+reply as a solution. When you create a new discussion topic, Discourse suggests similar topics that
+might be duplicates to your issue. Once a topic has been opened from the web interface, every
+registered user gets an email notification. It is possible to reply to such emails directly from
+your email client if you wish.
 
 If you think you have found a bug in our software, instead of reporting it on the mailing list you
 are encouraged to use [JIRA](https://alice.its.cern.ch):
