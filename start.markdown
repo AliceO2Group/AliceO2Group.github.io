@@ -69,13 +69,6 @@ might be duplicates to your issue. Once a topic has been opened from the web int
 registered user gets an email notification. It is possible to reply to such emails directly from
 your email client if you wish.
 
-If you think you have found a bug in our software, instead of reporting it on the mailing list you
-are encouraged to use [JIRA](https://alice.its.cern.ch):
-
-> [Open a ticket on O2 Core and Common Features](https://alice.its.cern.ch/jira/secure/CreateIssue.jspa?pid=11201)
-
-By default the issue type is set to **Bug** and the project is set to **O2 Core and Common
-Features**, which is the most used combination, since it mostly concerns the AliceO2 repository. In
-case you want to report a different issue type (for instance, you want to suggest a **New feature**)
-and your issue concerns a differnt project, please modify the project and the issue type fields
-accordingly.
+If you think you have found a bug in our software,
+[report it here](https://alice.its.cern.ch/jira/secure/CreateIssue.jspa?pid=11201). Change the issue
+type from Bug to something else if appropriate.
