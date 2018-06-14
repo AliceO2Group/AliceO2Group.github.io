@@ -17,5 +17,7 @@ menu_header: ALICE O²
 menu:
   - name: start
     label: Quickstart
+  - name: binaries
+    label: Get the packages
   - name: doc
     label: Documentation
