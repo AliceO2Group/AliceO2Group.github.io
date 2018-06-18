@@ -16,8 +16,12 @@ O²-specific tutorials
 An O2 specific tutorial can be found [here](https://alisw.github.io/o2-tutorial).
 
 
-FairRoot/FairMQ examples
-========================
+FairRoot/FairMQ docs
+====================
 
-Generic examples about how to use FairRoot and FairMQ can be found
-[here](https://github.com/FairRootGroup/FairRoot/tree/dev/examples).
+* FairRoot [API](https://fairrootgroup.github.io/FairRoot) /
+  [examples](https://github.com/FairRootGroup/FairRoot/tree/dev/examples) /
+  [MQ examples](https://github.com/FairRootGroup/FairRoot/tree/dev/examples/MQ)
+* FairMQ [docs](https://github.com/FairRootGroup/FairMQ#documentation) /
+  [API](https://fairrootgroup.github.com/FairMQ/latest) /
+  [examples](https://github.com/FairRootGroup/FairMQ/tree/master/examples)
