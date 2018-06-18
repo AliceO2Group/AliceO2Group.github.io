@@ -162,7 +162,6 @@ aliswmod enter Control/v20180613-1
 
 You can subsequently exit the new shell that was opened with a simple `exit`.
 
-
 The command `aliswmod` works the same way as `modulecmd`: if you want, for instance, to load
 packages in the current shell without opening a new one with `enter`, you can do:
 
