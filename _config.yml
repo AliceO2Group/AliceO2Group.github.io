@@ -15,9 +15,29 @@ highlighter: rouge
 
 menu_header: ALICE O²
 menu:
-  - name: start
+  - name: quickstart
     label: Quickstart
-  - name: binaries
-    label: Get the packages
-  - name: doc
-    label: Documentation
+    items:
+      - name: wp
+        label: Work Packages
+      - name: organisation
+        label: Code organisation
+      - name: fair-dpl
+        label: FairMQ and DPL
+      - name: build
+        label: Build and install
+      - name: devel
+        label: Development process
+      - name: help
+        label: Getting help
+  - name: advanced
+    label: Advanced
+    items:
+      - name: binaries
+        label: CVMFS and RPMs
+      - name: cmake
+        label: CMake
+      - name: doxygen
+        label: Doxygen
+      - name: guideline
+        label: Coding Guidelines
