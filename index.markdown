@@ -13,8 +13,12 @@ and proton-nucleus collisions at high energies. The ALICE experiment will be upg
 Long Shutdown&nbsp;2 (LS2, 2020-2021) in order to exploit the full scientific potential of the
 future LHC. Such upgrade will pose the challenge the challenge of reading out and inspecting the
 Pb–Pb collisions at rates of 50&nbsp;kHz, sampling the pp and p–Pb at up to 200&nbsp;kHz. The
-resulting data throughput from the detector has been estimated to be greater than 1&nbsp;TB/s for
-Pb–Pb events, roughly two orders of magnitude more than in Run&nbsp;2.
+resulting data throughput from the detector has been estimated to be greater than 3.4&nbsp;TB/s for
+Pb–Pb events, roughly two orders of magnitude more than in Run&nbsp;2. 
+</p>
+
+<p>
+To be able to cope with this amount of data, and to be able to store it, we need to compress it intelligently by running the events reconstruction mostly online. The goal is to store 90GB/s, and thus to achieve a compression factor of more than 30. 
 </p>
 
 <p style="text-align:justify;">
