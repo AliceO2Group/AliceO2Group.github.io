@@ -43,3 +43,6 @@ menu:
         label: Coverage reports
       - name: guideline
         label: Coding Guidelines
+
+plugins:
+  - jemoji
