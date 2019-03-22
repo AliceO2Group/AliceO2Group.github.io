@@ -16,7 +16,7 @@ highlighter: rouge
 menu_header: ALICE O²
 menu:
   - name: quickstart
-    label: Quickstart
+    label: Newcomers' guide
     items:
       - name: wp
         label: Work Packages
