@@ -37,6 +37,9 @@ lcov --remove coverage.info '/opt/*' '/usr/*' --output-file coverage.info
 lcov --list coverage.info
 ```
 
+Uploading reports to Codecov from aliBuild
+==========================================
+...
 
 Uploading reports to Codecov from Travis
 ========================================
