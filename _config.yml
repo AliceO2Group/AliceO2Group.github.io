@@ -39,5 +39,7 @@ menu:
         label: CMake
       - name: doxygen
         label: Doxygen
+      - name: coverage
+        label: Coverage reports
       - name: guideline
         label: Coding Guidelines
