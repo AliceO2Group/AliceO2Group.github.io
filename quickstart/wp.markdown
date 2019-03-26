@@ -3,7 +3,8 @@ title: Work Packages
 layout: main
 ---
 
-The  O<sup>2</sup> system is organised in 3 projects (EPN, FLP, PDP) and 17 _work packages_. Do not hesitate to contact the responsible of a Work Package should you have a question or need help with the corresponding component.  
+The  O<sup>2</sup> system is organised in 3 projects: EPN, FLP, PDP. There are 17 _work packages_, each of them belongs to single project. Do not hesitate to contact the responsible of a Work Package should you have a question or need help with the corresponding component.
+
 
 | WP      | Description | Responsible |
 |---------|-------------|-------------|
@@ -27,7 +28,8 @@ The  O<sup>2</sup> system is organised in 3 projects (EPN, FLP, PDP) and 17 _wor
 
 <br/>
 
-## FAQ
+FAQ
+---
 1. Question : What are these _Computing Working Groups (CWG)_ ? <br>
    Answer : Before _Work Packages (WP)_ we had _Computing Working Groups_.
 2. Question : Is there a more detailed description of these work packages ? <br>
