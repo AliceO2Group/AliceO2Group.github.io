@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Build packages
 layout: main
 ---
 
@@ -45,52 +45,3 @@ integration):
     env ALIBUILD_O2_TESTS=1 aliBuild build O2 --defaults o2 --debug
 
 You may want to use the `--debug` option here to have the full output.
-
-
-Run
-===
-
-The simplest way to run `AliceO2` is by using directly our nightly builds from CVMFS. If you have a
-CERN account, you can connect via SSH to `lxplus7.cern.ch` first to have CVMFS available.
-
-This is how you list all available builds:
-
-    /cvmfs/alice-nightlies.cern.ch/bin/alienv q | grep O2::nightly
-
-And this is how you load one of them:
-
-    /cvmfs/alice-nightlies.cern.ch/bin/alienv enter VO_ALICE@O2::nightly-20171130-1
-
-Nightly builds are also available on selected Grid sites (the ones supporting the
-`alice-nightlies.cern.ch` CVMFS repository), allowing for off-CERN testing.
-
-Nightly builds are automatically announced on the <alice-o2-software-support@cern.ch> mailing list.
-Read on the [Get support](#get-support) section to know how to subscribe.
-
-
-Contribute
-==========
-
-Since O² uses the Git version control system it is recommended you follow [our AliPhysics Git
-tutorial](http://alisw.github.io/git-tutorial/) to learn its rudiments.
-
-Remember to [fork the AliceO2 project on GitHub](https://github.com/AliceO2Group/AliceO2/fork) and
-please follow the [coding guidelines](https://github.com/AliceO2Group/CodingGuidelines/), given that
-most of them are enforced by automatic checks.
-
-
-Get support
-===========
-
-For simple support questions [please use our Discourse forum](https://alice-talk.web.cern.ch/).
-
-The first time you connect, you will need to hit the **Sign up** button and use your CERN
-credentials to register. It is easy to browse existing topics in Discourse, and mark the relevant
-reply as a solution. When you create a new discussion topic, Discourse suggests similar topics that
-might be duplicates to your issue. Once a topic has been opened from the web interface, every
-registered user gets an email notification. It is possible to reply to such emails directly from
-your email client if you wish.
-
-If you think you have found a bug in our software,
-[report it here](https://alice.its.cern.ch/jira/secure/CreateIssue.jspa?pid=11201). Change the issue
-type from Bug to something else if appropriate.

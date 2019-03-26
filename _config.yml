@@ -27,7 +27,7 @@ menu:
       - name: fair-dpl
         label: FairMQ and DPL
       - name: build
-        label: Build and install
+        label: Build packages
       - name: devel
         label: Development process
       - name: help
