@@ -5,9 +5,9 @@ layout: main
 
 <link type="text/css" rel="stylesheet" href="../main.css" />
 
-All the code for the ALICE O<sup>2</sup> is stored in the GitHub group [__AliceO2Group__](https://github.com/AliceO2Group).  It is divided in about 10 repositories, ranging from the pretty large AliceO2 to smaller common modules, such as the Monitoring or the QualityControl. We try to stay on the thin line between 1 huge monolithic repository and a multitude of tiny inter-coupled repositories. 
+All the code for the ALICE O<sup>2</sup> is stored in the [__AliceO2Group__](https://github.com/AliceO2Group) GitHub group.  It is divided into 10 repositories, ranging from the pretty large AliceO2 to smaller common modules, such as Monitoring or QualityControl. We try to stay on the thin line between 1 huge monolithic repository and a multitude of tiny inter-coupled repositories. 
 
-The detector specific code usually goes to AliceO2 (for simulation, reconstruction and calibration) or to QualityControl. 
+The detector specific code usually goes to AliceO2 (simulation, reconstruction and calibration) or to QualityControl. 
 
 Here is the list of our software repositories : 
 
