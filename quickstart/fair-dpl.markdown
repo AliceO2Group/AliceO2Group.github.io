@@ -15,6 +15,14 @@ FairMQ provides an asynchronous message passing API to be used in a multi-proces
 
 In case of problem or questions, we usually create an _issue_ in their GitHub or tag the main developers in our JIRA or Discourse.
 
+Resources:
+- FairRoot [API](https://fairrootgroup.github.io/FairRoot) /
+  [examples](https://github.com/FairRootGroup/FairRoot/tree/dev/examples) /
+  [MQ examples](https://github.com/FairRootGroup/FairRoot/tree/dev/examples/MQ)
+- FairMQ [docs](https://github.com/FairRootGroup/FairMQ#documentation) /
+  [API](https://fairrootgroup.github.com/FairMQ/latest) /
+  [examples](https://github.com/FairRootGroup/FairMQ/tree/master/examples)
+
 ## Data Processing Layer (DPL)
 
 The [DPL](https://github.com/AliceO2Group/AliceO2/tree/dev/Framework/Core) is part of AliceO2 and sits on top of FairMQ. We use it on the FLPs and the EPNs, synchronously and asynchronously, for all kind of data processing. In particular, the reconstruction and the data quality control operate within the DPL.
