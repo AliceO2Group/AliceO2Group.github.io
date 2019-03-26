@@ -18,6 +18,8 @@ menu:
   - name: quickstart
     label: Newcomers' guide
     items:
+      - name: overview
+        label: Overview
       - name: wp
         label: Work Packages
       - name: organisation
