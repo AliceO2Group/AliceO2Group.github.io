@@ -5,10 +5,9 @@ layout: main
 
 :musical_note: Help ! need somebody help ! :musical_note:
 
-Sources of help 
-- JIRA
-- Discourse
+Platforms 
+- [JIRA](https://alice.its.cern.ch)
+- [Discourse](https://alice-talk.web.cern.ch)
 
 Resources
-- TDR
-- See what I had in WP7 on Drupal
+- [TDR](https://alice-o2.web.cern.ch/system/files/ALICE_O2_TDR_2015_11_30.pdf)
