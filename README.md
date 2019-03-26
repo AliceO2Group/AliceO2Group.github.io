@@ -8,9 +8,9 @@ Top level web site for aliceo2group.github.io. For Alice O2 project pages, pleas
 gem install bundler
 ```
 
-2. Install `jekyll` using bundler
+2. Install `jekyll` using `bundler`
 ```
-git clone https://github.com/AliceO2Group/CodingGuidelines.git
+git clone https://github.com/AliceO2Group/AliceO2Group.github.io.git
 cd AliceO2Group.github.io
 bundle install
 ```
