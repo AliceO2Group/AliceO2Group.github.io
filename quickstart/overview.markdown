@@ -7,17 +7,17 @@ This is an overview of the O<sup>2</sup> system. It is pretty rough, but it shou
 
 ## Requirements
 
-1. After LS2 the ALICE experiment will have gone through a massive upgrade to handle minimum bias PbPb interactions at 50 kHz. This will results in a 100 times more data than in Run 2.
+1. After LS2 the ALICE experiment will have gone through a massive upgrade to handle minimum bias PbPb interactions at 50 kHz. This will results in a 100 times higher event rate in Run 1 (2010).
 
-2. The physics topics addressed by the ALICE upgrade are characterised by a very small signal-to-noise ratio, requiring very large statistics, and a large background, which makes triggering techniques very inefficient, if not impossible.
+2. Moreover, the physics topics addressed by the ALICE upgrade are characterised by a very small signal-to-noise ratio, requiring very large statistics, and a large background, which makes triggering techniques very inefficient, if not impossible.
 
 3. Finally, the TPC's inherent rate of ~50Hz requires a continuous, _non-triggered_, read-out.
 
 ## A new computing system : ALICE O<sup>2</sup>
 
- Due to above requirements the readout throughput increased to 3.4TB/s. Such amount of data is difficult to store as it was done during Run 1 and 2.
+ Given the above requirements, the readout throughput increases to 3.4TB/s. Such amount of data is difficult to store as it was done during Run 1 and 2.
 
- This lead us to design of a new computing system for Run 3 and 4. In this very new system we compress the data on-the-fly by partial online reconstruction achieving a compression factor of 30. The unified design causes that traditional boundary between online and offline system blurs out. As a consequence, we have a common computing system for online and offline, thus the name “O2”.  
+ This lead us to design of a new computing system for Run 3 and 4. In this new system we compress the data on-the-fly by partial online reconstruction achieving a compression factor of 30. The unified design causes that traditional boundary between online and offline system blurs out. As a consequence, we have a common computing system for online and offline, thus the name “O2”.
 
 ## Data flow
 
