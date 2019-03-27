@@ -7,8 +7,8 @@ Once the build machine is setup it is not necessary to run alibuild each time co
 1. Load environment : `alienv load O2/latest`
 2. Modify some code, for example in AliceO2
 3. Go to the build directory : `cd sw/BUILD/O2-latest/O2`
-4. Rebuild : `make -jX install` (replace X by the number of cores)
-5. Once you are happy with your changes, make a Pull Request (see the section below)
+4. Rebuild : `make -j install`
+5. Once you are happy with your changes, create a Pull Request (see the section below)
 
 Of course the same process works with any repository, e.g. QualityControl or Readout.
 
