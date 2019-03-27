@@ -1,5 +1,5 @@
 ---
-title: Get the packages
+title: Binaries
 layout: main
 ---
 
