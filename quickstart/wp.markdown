@@ -25,7 +25,7 @@ The  O<sup>2</sup> system is organised in 3 projects: EPN, FLP, PDP. There are 1
 | [WP15](https://alice-o2.web.cern.ch/node/150) | Data Management | Latchezar Betev |
 | [WP16](https://alice-o2.web.cern.ch/node/151) | Computing Room CR1 (FLP) | Ulrich Fuchs |
 | [WP17](https://alice-o2.web.cern.ch/node/152) | Computing Room CR0 (EPN)| Johannes Lehrbach |
-
+{:.pure-table}
 <br/>
 
 FAQ
