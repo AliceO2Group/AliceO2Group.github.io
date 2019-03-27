@@ -3,6 +3,14 @@ title: Development process
 layout: main
 ---
 
+
+
+Typical development process : alienv, cd BUILD, make install, the whole github shebang to get your changes approved.
+
+github tutorial !!
+
+
+
 Contribute
 ==========
 
@@ -12,3 +20,4 @@ tutorial](http://alisw.github.io/git-tutorial/) to learn its rudiments.
 Remember to [fork the AliceO2 project on GitHub](https://github.com/AliceO2Group/AliceO2/fork) and
 please follow the [coding guidelines](https://github.com/AliceO2Group/CodingGuidelines/), given that
 most of them are enforced by automatic checks.
+
