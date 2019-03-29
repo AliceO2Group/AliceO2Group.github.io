@@ -1,5 +1,5 @@
 ---
-title: Binaries
+title: Binaries: CVMFS and RPMs
 layout: main
 ---
 

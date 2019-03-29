@@ -30,13 +30,13 @@ menu:
         label: Build packages
       - name: devel
         label: Development process
+      - name: binaries
+        label: Binaries
       - name: help
         label: Getting help
   - name: advanced
     label: Advanced
     items:
-      - name: binaries
-        label: CVMFS and RPMs
       - name: cmake
         label: CMake
       - name: doxygen
