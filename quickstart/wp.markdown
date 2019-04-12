@@ -3,7 +3,7 @@ title: Work Packages
 layout: main
 ---
 
-The  O<sup>2</sup> system is organised in 3 projects: EPN, FLP, PDP. There are 17 _work packages_, each of them belongs to single project. Do not hesitate to contact the responsible of a Work Package should you have a question or need help with the corresponding component.
+The  O<sup>2</sup> system is organised in 3 projects: EPN, FLP, PDP. There are 17 _work packages_, each of them belonging to a single project. Do not hesitate to contact the responsible of a Work Package should you have a question or need help with the corresponding component.
 
 
 | WP      | Description | Responsible |
