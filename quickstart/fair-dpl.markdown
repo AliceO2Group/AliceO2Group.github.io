@@ -30,5 +30,3 @@ The [DPL](https://github.com/AliceO2Group/AliceO2/tree/dev/Framework/Core) is pa
 To use it, one has to express the topology programmatically in a _workflow_. Each step of the processing is described as a _DataProcessor_ and is mapped automatically to a FairMQ _Device_.
 
 See the extensive README [here](https://github.com/AliceO2Group/AliceO2/tree/dev/Framework/Core) for more details.
-
-TODO : goal (shortly), expend on concepts, code example (simple!)

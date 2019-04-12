@@ -30,7 +30,7 @@ The  O<sup>2</sup> system is organised in 3 projects: EPN, FLP, PDP. There are 1
 
 FAQ
 ---
-1. Question : What are these _Computing Working Groups (CWG)_ ? <br>
-   Answer : Before _Work Packages (WP)_ we had _Computing Working Groups_.
-2. Question : Is there a more detailed description of these work packages ? <br>
-   Answer : One can find such descriptions in this [document](https://docs.google.com/document/d/1D2U1xr1QNEaRiP3nezYcsrfti0cnBuDmjtHH).
+1. Question: What are these _Computing Working Groups (CWG)_ ? <br>
+   Answer: Before _Work Packages (WP)_ we had _Computing Working Groups_.
+2. Question: Is there a more detailed description of these work packages ? <br>
+   Answer: One can find such descriptions in this [document](https://docs.google.com/document/d/1D2U1xr1QNEaRiP3nezYcsrfti0cnBuDmjtHH).

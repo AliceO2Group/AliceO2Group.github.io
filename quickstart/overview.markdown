@@ -13,7 +13,7 @@ This is an overview of the O<sup>2</sup> system. It is pretty rough, but it shou
 
 3. Finally, the TPC's inherent rate of ~50Hz requires a continuous, _non-triggered_, read-out.
 
-## A new computing system : ALICE O<sup>2</sup>
+## A new computing system: ALICE O<sup>2</sup>
 
  Given the above requirements, the readout throughput increases to 3.4TB/s. Such amount of data is difficult to store as it was done during Run 1 and 2.
 
