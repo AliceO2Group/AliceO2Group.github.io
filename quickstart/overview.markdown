@@ -7,7 +7,7 @@ This is an overview of the O<sup>2</sup> system. It is pretty rough, but it shou
 
 ## Requirements
 
-1. After LS2 the ALICE experiment will have gone through a massive upgrade to handle minimum bias PbPb interactions at 50 kHz. This will results in a 100 times higher event rate than in Run 1 (2010).
+1. After LS2 the ALICE experiment will have gone through a massive upgrade to handle minimum bias PbPb interactions at 50 kHz. This will results in an event rate 100 times higher than during Run 1 (2010-2012).
 
 2. Moreover, the physics topics addressed by the ALICE upgrade are characterised by a very small signal-to-noise ratio, requiring very large statistics, and a large background, which makes triggering techniques very inefficient, if not impossible.
 
