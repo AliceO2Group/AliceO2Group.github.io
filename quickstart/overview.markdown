@@ -1,5 +1,5 @@
 ---
-title: Overview of the ALICE O<sup>2</sup>
+title: Overview of the ALICE O<sup>2</sup> computing system
 layout: main
 ---
 
