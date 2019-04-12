@@ -21,6 +21,6 @@ This is an overview of the O<sup>2</sup> system. It is pretty rough, but it shou
 
 ## Data flow
 
-The data flow is depicted below in a simplified way. A much more detailed description and figure is available in the [TDR](https://cds.cern.ch/record/2011297).
+The O<sup>2</sup> data flow is depicted below in a simplified way. A more detailed description is available in the [TDR](https://cds.cern.ch/record/2011297).
 
 <img src="{{site.baseurl}}/images/dataflow.png" style="width:85%"/>
