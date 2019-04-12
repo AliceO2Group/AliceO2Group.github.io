@@ -15,7 +15,7 @@ This is an overview of the O<sup>2</sup> system. It is pretty rough, but it shou
 
 ## A new computing system: ALICE O<sup>2</sup>
 
- Given the above requirements, the readout throughput increases to 3.4TB/s. Such amount of data is difficult to store as it was done during Run 1 and 2.
+After the upgrade the readout throughput will increase to 3.4TB/s. To store such a data volume is quite challenging. 
 
 This led us to design a new computing system for Run 3 and 4. In this new system the data is compressed on-the-fly by partial online reconstruction, achieving a compression factor of 30. In this unified design, the traditional boundary between online and offline tasks is much thinner. As a consequence, we have a common computing system for online and offline named "O<sup>2</sup>".
 
