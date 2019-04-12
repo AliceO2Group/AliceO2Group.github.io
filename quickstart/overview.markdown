@@ -11,7 +11,7 @@ This is an overview of the O<sup>2</sup> system. It is pretty rough, but it shou
 
 2. Moreover, the physics topics addressed by the ALICE upgrade are characterised by a very small signal-to-noise ratio, requiring very large statistics, and a large background, which makes triggering techniques very inefficient, if not impossible.
 
-3. Finally, the TPC's inherent rate of ~50Hz requires a continuous, _non-triggered_, read-out.
+3. Finally, the inherent rate of  the Time Projection Chamber (TPC) detector is lower than 50kHz, thus requiring a continuous, _non-triggered_, read-out.
 
 ## A new computing system: ALICE O<sup>2</sup>
 
