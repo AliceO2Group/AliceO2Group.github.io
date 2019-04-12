@@ -3,7 +3,7 @@ title: Overview of the ALICE O<sup>2</sup>
 layout: main
 ---
 
-This is an overview of the O<sup>2</sup> system. It is pretty rough, but it should give you an idea of the general architecture. Please refer to other documents such as the [TDR](https://cds.cern.ch/record/2011297).
+This is an overview of the O<sup>2</sup> computing system. It is pretty rough, but it should give you an idea of the general architecture. For more details, please refer to other documents such as the [TDR](https://cds.cern.ch/record/2011297).
 
 ## Requirements
 
