@@ -15,9 +15,36 @@ highlighter: rouge
 
 menu_header: ALICE O²
 menu:
-  - name: start
-    label: Quickstart
-  - name: binaries
-    label: Get the packages
-  - name: doc
-    label: Documentation
+  - name: quickstart
+    label: Newcomers' guide
+    items:
+      - name: overview
+        label: Overview
+      - name: wp
+        label: Work Packages
+      - name: organisation
+        label: Code organisation
+      - name: fair-dpl
+        label: FairMQ and DPL
+      - name: build
+        label: Build packages
+      - name: devel
+        label: Development process
+      - name: binaries
+        label: Binaries
+      - name: help
+        label: Getting help
+  - name: advanced
+    label: Advanced
+    items:
+      - name: cmake
+        label: CMake
+      - name: doxygen
+        label: Doxygen
+      - name: coverage
+        label: Coverage reports
+      - name: guideline
+        label: Coding Guidelines
+
+plugins:
+  - jemoji

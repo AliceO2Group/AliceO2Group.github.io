@@ -3,3 +3,6 @@ _site
 /.DS_Store
 /._*
 .ruby-version
+/Gemfile.lock
+/cmake-build-debug/
+.idea
