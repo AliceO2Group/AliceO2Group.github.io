@@ -11,12 +11,13 @@ The detector specific code usually goes to AliceO2 (simulation, reconstruction a
 
 Here is the list of our software repositories :
 
-1. [AliceO2](https://github.com/AliceO2Group/AliceO2)<br/>
+1. [AliceO2](https://github.com/AliceO2Group/AliceO2) - [Doxygex](https://aliceo2group.github.io/AliceO2/) <br/>
 The ALICE O2 software repository contains the framework, as well as the detector specific, code for the reconstruction, calibration and simulation for the ALICE experiment at CERN for Run 3 and 4. It also encompasses the commonalities such as the data format, and the global algorithms like the global tracking. <br/>
 The code organization of this specific repository is explained [here](https://github.com/AliceO2Group/AliceO2/blob/dev/doc/CodeOrganization.md).
 1. [AliTPCCommon](https://github.com/AliceO2Group/AliTPCCommon)
 1. [Control](https://github.com/AliceO2Group/Control)
-1. [Configuration](https://github.com/AliceO2Group/Configuration)
+1. [Configuration](https://github.com/AliceO2Group/Configuration) - [Doxygen](https://aliceo2group.github.io/Configuration/)
+1. [Monitoring](https://github.com/AliceO2Group/Monitoring) - [Doxygen](https://aliceo2group.github.io/Monitoring/)
 1. [DataDistribution](https://github.com/AliceO2Group/DataDistribution)
 1. [InfoLogger](https://github.com/AliceO2Group/InfoLogger)
 1. [QualityControl](https://github.com/AliceO2Group/QualityControl)<br/>
