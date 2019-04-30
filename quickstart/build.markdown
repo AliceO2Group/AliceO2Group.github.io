@@ -7,6 +7,6 @@ In order to build our software and manage its internal and external dependencies
 
 `alienv` is the companion to `aliBuild`. It sets up the environment to be able to run the software. You can either _load_ or _enter_ the environment, depending whether you wish to stay in the same shell or launch a new one. 
 
-Before building the Alice O2 software suite, there are a number of steps to take. They are all described in [this extensive tutorial](https://alice-doc.github.io/alice-analysis-tutorial/building/).
+To build our software, please follow carefully [this extensive tutorial](https://alice-doc.github.io/alice-analysis-tutorial/building/).
 
-If you just want to run our software, not develop it, please head directly to the section about [binaries](../advanced/binaries.markdown).
+If you just want to run our software, not develop it, please head directly to the section about [binaries](binaries.markdown).
