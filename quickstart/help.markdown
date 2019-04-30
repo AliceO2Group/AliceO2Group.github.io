@@ -19,3 +19,9 @@ reply as a solution. When you create a new discussion topic, Discourse suggests 
 might be duplicates to your issue. Once a topic has been opened from the web interface, every
 registered user gets an email notification. It is possible to reply to such emails directly from
 your email client if you wish.
+
+Mattermost
+==========
+To chat with other O2 developers we mostly use Mattermost. 
+
+Go to https://mattermost.web.cern.ch, login with your CERN credentials and choose the Team "ALICE".
