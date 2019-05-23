@@ -35,3 +35,20 @@ Find the ALICE O² software on GitHub under the
 information useful to O² contributors. You might also want to visit our
 <a href="http://cern.ch/alice-o2">institutional website</a>.
 </p>
+<br/>
+
+Local search
+============
+
+<script>
+  (function() {
+    var cx = '011701885831553573830:zsrnqqfrhsg';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
