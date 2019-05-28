@@ -20,7 +20,7 @@ The code organization of this specific repository is explained [here](https://gi
 1. [Monitoring](https://github.com/AliceO2Group/Monitoring) - [Doxygen](https://aliceo2group.github.io/Monitoring/)
 1. [DataDistribution](https://github.com/AliceO2Group/DataDistribution)
 1. [InfoLogger](https://github.com/AliceO2Group/InfoLogger) - [Docs](https://github.com/AliceO2Group/InfoLogger/blob/master/doc/README.md)
-1. [QualityControl](https://github.com/AliceO2Group/QualityControl)<br/>
+1. [QualityControl](https://github.com/AliceO2Group/QualityControl) - [Doxygen](https://aliceo2group.github.io/QualityControl/)<br/>
 Framework and infrastructure for all aspects related to the quality of the data (traditionally called online Data Quality Monitoring, DQM, and offline Quality Assurance, QA).
 1. [Readout](https://github.com/AliceO2Group/Readout)
 1. [ReadoutCard](https://github.com/AliceO2Group/ReadoutCard)
