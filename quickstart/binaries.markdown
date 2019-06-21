@@ -68,51 +68,22 @@ install and run several versions of the same package at the same time. We produc
 RHEL 7 or equivalent.
 
 
-Install the CERN CA
--------------------
-
-Our RPMs are downloaded from HTTPS servers whose certificates are signed by CERN. You need to make
-your system recognize the CERN Certification Authority.
-
-Download the certificates, as root (just copy and paste the following two lines, one of them
-automatically converts the certificate to the proper format):
-
-```bash
-curl https://cafiles.cern.ch/cafiles/certificates/CERN%20Grid%20Certification%20Authority.crt > /etc/pki/ca-trust/source/anchors/cern_grid.pem
-curl https://cafiles.cern.ch/cafiles/certificates/CERN%20Root%20Certification%20Authority%202.crt | openssl x509 -inform der -out /etc/pki/ca-trust/source/anchors/cern_root.pem
-```
-
-Make them recognized:
-
-```bash
-update-ca-trust
-```
-
-You can immediately test it:
-
-```bash
-curl https://ali-ci.cern.ch
-```
-
-If you don't see any HTTPS/SSL error, it means the installation went through.
-
-
 Configure Yum repository
 ------------------------
 
-Run, as root:
+The RPM repository is hosted on EOS as an ordinary CERN IT-managed website. Run, as root:
 
 ```bash
 cat > /etc/yum.repos.d/alisw-el7.repo <<EOF
 [alisw-el7]
 name=ALICE Software - EL7
-baseurl=https://ali-ci.cern.ch/repo/RPMS/el7.x86_64/
+baseurl=https://alirepo.web.cern.ch/alirepo/RPMS/el7.x86_64
 enabled=1
 gpgcheck=0
 EOF
 ```
 
-You are all set.
+You are all set!
 
 
 Find and install packages
