@@ -68,10 +68,14 @@ install and run several versions of the same package at the same time. We produc
 RHEL 7 or equivalent.
 
 
-Configure Yum repository
-------------------------
+Configure Yum repositories
+--------------------------
 
-The RPM repository is hosted on EOS as an ordinary CERN IT-managed website. Run, as root:
+There are three RPM repositories available. They are all hosted on EOS as an ordinary CERN
+IT-managed website.
+
+The **main repository** contains special RPMs that allow for the installation of multiple versions
+at the same time. Configure it as follows (as root):
 
 ```bash
 cat > /etc/yum.repos.d/alisw-el7.repo <<EOF
@@ -82,6 +86,45 @@ enabled=1
 gpgcheck=0
 EOF
 ```
+
+What is available in the repository can be configured by issuing a pull request to [this
+file](https://github.com/alisw/ali-bot/blob/master/publish/aliPublish-rpms.conf).
+
+There are two additional repositories. The **updatable RPMs repository** does not allow for multiple
+versions of the same package to be installable at the same time, and it behaves more similarly to
+what happens to the system packages. Configure it as follows:
+
+```bash
+cat > /etc/yum.repos.d/alisw-upd-el7.repo <<EOF
+[alisw-upd-el7]
+name=ALICE Software - EL7
+baseurl=https://alirepo.web.cern.ch/alirepo/UpdRPMS/el7.x86_64
+enabled=1
+gpgcheck=0
+EOF
+```
+
+Open a pull request to [this
+file](https://github.com/alisw/ali-bot/blob/master/publish/aliPublish-updatable-rpms.conf) to select
+what RPMs are generated.
+
+There is a third repository made of **updatable RPMs for testing purposes**. Configure it as
+follows:
+
+```bash
+cat > /etc/yum.repos.d/alisw-upd-test-el7.repo <<EOF
+[alisw-upd-el7]
+name=ALICE Software - EL7
+baseurl=https://alirepo.web.cern.ch/alirepo/UpdTestRPMS/el7.x86_64
+enabled=1
+gpgcheck=0
+EOF
+```
+
+Open a pull request to [this
+file](https://github.com/alisw/ali-bot/blob/master/publish/aliPublish-updatable-test-rpms.conf) to select
+what RPMs are generated.
+
 
 You are all set!
 
