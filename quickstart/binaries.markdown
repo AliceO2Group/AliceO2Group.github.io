@@ -186,3 +186,37 @@ eval `aliswmod load Control/v20180613-1`
 which should work in most Unix shells (including `tcsh`, `ksh`, and `zsh`). Note that, differently
 from `modulecmd`, you don't need to specify the shell as it is automatically detected by `aliswmod`
 itself.
+
+
+Produce RPMs
+============
+
+The ALICE package publishing mechanism produces RPMs based on certain rules as specified in the
+previous section from the cached builds produced by aliBuild on the central repository.
+
+Use [this Jenkins job](https://alijenkins.cern.ch/job/BuildRPM/) to launch a RPM build. This job
+will actually launch a "standard" build, but it will wait for the RPM to be created and deployed by
+the publisher before exiting.
+
+
+Add external dependencies to RPMs
+---------------------------------
+
+It is possible to add standard system dependencies to the produced RPMs if desired. To do so, it is
+sufficient to make the build recipe produce a special file called `.rpm-extra-deps` in the root of
+the installation directory. The file should contain the package name and version specification using
+the format expected by RPMs.
+
+An example follows: it's similar to the creation of Modulefiles:
+
+```bash
+# This is the body of the recipe: add extra RPM dependencies
+cat > $INSTALLROOT/.rpm-extra-deps <<EOF
+axel >= 2.4
+python36 <= 3.7
+jq >= 1.5
+EOF
+```
+
+The file will be created under `$INSTALLROOT` and will be simply ignored by a local installation.
+The publisher will create a RPM that installs the given dependencies as well.
