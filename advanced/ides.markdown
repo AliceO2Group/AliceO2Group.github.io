@@ -12,12 +12,12 @@ Compilation
 1. Install [`direnv`](https://direnv.net/docs/installation.html).
 2. Build with aliBuild as you would do normally.
 3. Go to the directory where you run CLion.
-4. Create a new file ".envrc" which loads all the build environments of the projects that you will run on CLion. Use ~/alice/sw/BUILD/O2-latest/O2/.envrc as a starting point. For example:
+4. Create a new file ".envrc" which loads all the build environments of the projects that you will run on CLion. Use <your_path_to>/alice/sw/BUILD/O2-latest/O2/.envrc as a starting point. For example:
 ```
 # Source the build environment which was used for this package
-WORK_DIR=/home/pkonopka/alice/sw
-source /home/<user_name>/alice/sw/slc7_x86-64/O2/latest/etc/profile.d/init.sh
-source /home/<user_name>/alice/sw/slc7_x86-64/QualityControl/latest/etc/profile.d/init.sh
+WORK_DIR=<your_path_to>/alice/sw
+source $WORK_DIR/slc7_x86-64/O2/latest/etc/profile.d/init.sh
+source $WORK_DIR/slc7_x86-64/QualityControl/latest/etc/profile.d/init.sh
 source_up
 
 # On mac we build with the proper installation relative RPATH,
