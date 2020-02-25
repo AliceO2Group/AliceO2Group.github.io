@@ -63,7 +63,7 @@ function update() {
   <input id="o2_target" type="hidden" name="target">
   <input id="o2_tag" type="hidden" name="tag">
   <input id="o2_title" type="hidden" name="title">
-  <button id="o2_button" type="submit" method="get" target="_blank" formaction="https://github.com/AliceO2Group/O2/releases/new">Create O2 release</button>
+  <button id="o2_button" type="submit" method="get" target="_blank" formaction="https://github.com/AliceO2Group/AliceO2/releases/new">Create O2 release</button>
 </form>
 <br/>
 </div>
