@@ -20,7 +20,9 @@ The last step will trigger a build in Jenkins.
 Once the release is built. You can create a pull request in `alidist` from the
 branch `O2-<O2-tag>-patches` so that master uses a specific release. 
 You should also do a pull request from the dev branch of AliceO2 to the master
-branch, marking sure it is fast forwaded.
+branch, making sure it is fast forwaded, in case the release was cut from
+the tip of it. This will guarantee that master always uses the latest released
+version of O2.
 
 <script>
 function update() {
