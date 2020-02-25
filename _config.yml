@@ -45,6 +45,8 @@ menu:
         label: Coverage reports
       - name: guideline
         label: Coding Guidelines
+      - name: release-process
+        label: Release Process
 
 plugins:
   - jemoji
