@@ -17,6 +17,11 @@ Creation of a release can be done in several ways, however this is the preferred
 
 The last step will trigger a build in Jenkins.
 
+Once the release is built. You can create a pull request in `alidist` from the
+branch `O2-<O2-tag>-patches` so that master uses a specific release. 
+You should also do a pull request from the dev branch of AliceO2 to the master
+branch, marking sure it is fast forwaded.
+
 <script>
 function update() {
   var targetMatcher = /(v[0-9].[0-9][0-9]*.[0-9][0-9]*)[a-z]*/;
@@ -41,7 +46,8 @@ function update() {
   document.getElementById("workDiv").style.display = "block";
 }
 </script>
-<div id="errorDiv"><strong>Please specify a proper tag in the format <pre>vX.Y.Z[a-z]</pre>.</strong></div>
+<h2>Guided process</h2>
+<div id="errorDiv"><strong>Please specify a proper tag in the format vX.Y.Z[a-z] to start the process.</strong></div>
 <form>
   <input id="release" type="text" onkeyup="update()" onload="update()" value="v1.X.0">
 </form>
@@ -62,7 +68,3 @@ function update() {
 <br/>
 </div>
 
-Once the release is built. You can create a pull request in `alidist` from the
-branch `O2-<O2-tag>-patches` so that master uses a specific release. 
-You should also do a pull request from the dev branch of AliceO2 to the master
-branch, marking sure it is fast forwaded.
