@@ -47,6 +47,7 @@ menu:
         label: Coding Guidelines
       - name: release-process
         label: Release Process
-
+      - name: ides
+        label: IDEs
 plugins:
   - jemoji
