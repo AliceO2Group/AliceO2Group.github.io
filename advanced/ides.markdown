@@ -55,7 +55,7 @@ yum -y install rsync
 3. Create a new clion user (as root)
 ```
 useradd clion
-passed clion
+passwd clion
 ```
 4. Give the new user access to the alice subdirs in your usual user's home (replace all $USER occurences) (as root)
 ```
@@ -66,7 +66,7 @@ setacl -m u:clion:rx /home/$USER/alice
  source scl_source enable devtoolset-7
  export ALIBUILD_WORK_DIR="/home/$USER/alice/sw"
  WORK_DIR=$ALIBUILD_WORK_DIR
- source /home/$USER/alice/sw/slc7_x86-64/ReadoutCard/latest/etc/profile.d/init.sh
+ source /home/$USER/alice/sw/slc7_x86-64/ReadoutCard/latest/etc/profile.d/init.sh #Replace/extend with your package
  source /home/$USER/alice/sw/slc7_x86-64/CMake/latest/etc/profile.d/init.sh
 ```
 6. Follow the instructions from [here](https://www.jetbrains.com/help/clion/remote-projects-support.html) to start a full remote project on CLion running on your local host, with the options outlined below. 
