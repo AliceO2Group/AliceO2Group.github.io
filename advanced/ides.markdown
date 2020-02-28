@@ -78,16 +78,17 @@ setacl -m u:clion:rx /home/$USER/alice
   - gcc: `/home/$USER/alice/sw/slc7_x86-64/GCC-Toolchain/latest/bin/gcc`
   - g++: `/home/$USER/alice/sw/slc7_x86-64/GCC-Toolchain/latest/bin/g++`
   - gdb: `/home/$USER/alice/sw/slc7_x86-64/GCC-Toolchain/latest/bin/gdb`
+  
   CMake
   - Toolchain: the name of the toolchain just created
   - Build options: Add `-j$T` where T = a sensible number of threads for your
     remote system
-PS: To use gdb properly, don't forget to pass -O0 to the CMAKE_CXX_FLAGS
-
 7. Load CMake Project
 8. Build / Run
 
-Known issues / quirks:
+PS: To use gdb properly, don't forget to pass -O0 to the CMAKE_CXX_FLAGS
+
+### Known issues / quirks:
 
 1. Some times the "Loading cmake project" step might hang. It is unclear why, a restart of the IDE solves the problem.
 2. Some times the local and remote files can get out of sync. A change in the remote deployment directory solves it:
