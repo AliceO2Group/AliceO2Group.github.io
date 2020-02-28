@@ -86,7 +86,7 @@ setacl -m u:clion:rx /home/$USER/alice
 7. Load CMake Project
 8. Build / Run
 
-PS: To use gdb properly, don't forget to pass -O0 to the CMAKE_CXX_FLAGS
+PS: To use gdb properly, don't forget to pass `-O0` to the `CMAKE_CXX_FLAGS`
 
 ### Known issues / quirks:
 
