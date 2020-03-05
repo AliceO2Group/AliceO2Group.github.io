@@ -5,13 +5,14 @@ layout: main
 
 Introduction
 ============
-[CMake](https://cmake.org) is a tool to build, test and package software independent from an operating system.
+[CMake](https://cmake.org) is a tool to build, test and package software independently from an operating system.
 
 New CMake users are advised to follow the "An Introduction to Modern CMake" tutorial, CMake 2.x users may be interested in "It's Time To Do CMake Right" (see references below).
 
+The underlying concepts used in our cmake implementation can be found [here](https://github.com/AliceO2Group/AliceO2/blob/dev/doc/CMakeInstructions.md).
+
 Modern CMake
 ============
-O<sup>2</sup> modules undergo migration to so-called _modern CMake_. As some of them are fully migrated `AliceO2` still uses [macro-oriented concept](https://github.com/AliceO2Group/AliceO2/blob/dev/doc/CMakeInstructions.md).
 
 _Modern CMake_ promotes, among others, following concepts:
 - Use `CONFIG` mode to load dependency settings to the project, if not available `Find<package>.cmake` recipe should provide imported target
@@ -26,3 +27,4 @@ References
 =========
 1. [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
 2. [It's Time To Do CMake Right](https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/)
+3. [O2 CMake](https://github.com/AliceO2Group/AliceO2/blob/dev/doc/CMakeInstructions.md)
