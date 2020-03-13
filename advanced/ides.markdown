@@ -17,7 +17,11 @@ Compilation
 6. Run `clion`.
 7. If you haven't opened your project, go to File->Open. Choose your project's directory. It should compile out of the box.
 
-By default, no CMake options are needed in "File->Settings->Build, Execution, Deployment->CMake->CMake options". However, when "install" is added to the "Build options", a valid `CMAKE_INSTALL_PREFIX` has to be added in "CMake options", for example `-DCMAKE_INSTALL_PREFIX=/home/<user_name>/alice/sw/slc7_x86-64/O2/latest`.
+Notes
+
+1. **Options** - By default, no CMake options are needed in "File->Settings->Build, Execution, Deployment->CMake->CMake options". However, when "install" is added to the "Build options", a valid CMAKE_INSTALL_PREFIX has to be added in "CMake options", for example "-DCMAKE_INSTALL_PREFIX=/home/<user_name>/alice/sw/slc7_x86-64/O2/latest".
+2. **Mac clion exe** - On Mac the path to the clion executable can either be `/Applications/CLion.app/Contents/MacOS` or `~/Library/Application\ Support/JetBrains/Toolbox/apps/CLion/ch-0/201.5616.31/CLion\ 2020.1\ EAP.app/Contents/MacOS/clion` (adapt the version numbers) if installed with Jetbrains Toolbox.
+3. **Pre-existing projects** - For projects that already existed, it is better to remove them by deleting the folder `.idea` in the source directory.
 
 .envrc
 ------
