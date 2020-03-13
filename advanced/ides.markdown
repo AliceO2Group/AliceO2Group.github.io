@@ -11,7 +11,7 @@ Compilation
 
 1. Install [`direnv`](https://direnv.net/docs/installation.html).
 2. Build with aliBuild as you would do normally.
-3. Go to the directory where you run CLion.
+3. Go to the directory from where you would usually run CLion.
 4. Create a new file ".envrc" which loads all the build environments of the projects that you will run on CLion. Use <your_path_to>/alice/sw/BUILD/O2-latest/O2/.envrc as a starting point. [See below](#.envrc) for an example.
 5. Run `direnv allow`.
 6. Run `clion`.
