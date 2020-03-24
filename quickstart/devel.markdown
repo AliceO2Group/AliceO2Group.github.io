@@ -21,3 +21,8 @@ tutorial](http://alisw.github.io/git-tutorial/) to learn its rudiments.
 Remember to [fork the AliceO2 project on GitHub](https://github.com/AliceO2Group/AliceO2/fork) and
 please follow the [coding guidelines](https://github.com/AliceO2Group/CodingGuidelines/), given that
 most of them are enforced by automatic checks.
+
+Pull request flow
+=================
+
+Once you have some code change ready, you can open a pull request (PR) to the relevant AliceO2 repository. If you are a member of the AliceO2Group organization or a long time contributor to it, your pull request will be automatically tested. If you are a first time contributor, you will have to wait for someone to review and approve your PR.
