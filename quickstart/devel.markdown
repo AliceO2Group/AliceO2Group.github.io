@@ -26,3 +26,12 @@ Pull request flow
 =================
 
 Once you have some code change ready, you can open a pull request (PR) to the relevant AliceO2 repository. If you are a member of the AliceO2Group organization or a long time contributor to it, your pull request will be automatically tested. If you are a first time contributor, you will have to wait for someone to review and approve your PR.
+
+Draft (WIP) Pull requests
+-------------------------
+
+In case you are not ready for a PR to be reviewed, you can [mark it as "Draft"](https://github.blog/2019-02-14-introducing-draft-pull-requests/). This will prevent notifying the reviewers and running the tests.
+
+*DEPRECATED*: You can also start the PR title with either `WIP` or `[WIP]` and it will have the same effect. Notice this is deprecated and will be removed at some point in the future.
+
+
