@@ -13,7 +13,8 @@ Compilation
 2. Build with aliBuild as you would do normally.
 3. Go to the directory from where you would usually run CLion.
 4. Create a new file ".envrc" which loads all the build environments of the projects that you will run on CLion. Use <your_path_to>/alice/sw/BUILD/O2-latest/O2/.envrc as a starting point. For example:
-```
+
+```bash
 # Source the build environment which was used for this package
 WORK_DIR=<your_path_to>/alice/sw
 source $WORK_DIR/slc7_x86-64/O2/latest/etc/profile.d/init.sh
@@ -26,6 +27,7 @@ source_up
 # dynamic loader
 unset DYLD_LIBRARY_PATH
 ```
+
 5. Run `direnv allow`.
 6. Run `clion`. 
 7. If you haven't opened your project, go to File->Open. Choose your project's directory. It should compile out of the box.
