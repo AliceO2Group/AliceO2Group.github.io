@@ -13,12 +13,17 @@ available and you can start running in seconds.
 
 ## On your own machine
 
-The following operating systems should be supported:
+The following Operating System (OS) is supported:
 
-  * RHEL 7 (and newer)
-  * Ubuntu 16.04/Debian 7 (and newer)
+  * RHEL 7
 
-MacOS is not supported.
+moreover the following OSes:
+
+* Centos 8
+* Ubuntu 18.04 / Debian 7 (and newer)
+* macOS Catalina
+
+are supported on a best effort basis for development and analysis needs.
 
 ### Setup
 
