@@ -39,6 +39,8 @@ menu:
     items:
       - name: cmake
         label: CMake
+      - name: ninja
+        label: Ninja
       - name: doxygen
         label: Doxygen
       - name: coverage
