@@ -76,7 +76,7 @@ at the same time. Configure it as follows (as root):
 cat > /etc/yum.repos.d/alisw-el7.repo <<EOF
 [alisw-el7]
 name=ALICE Software - EL7
-baseurl=https://alirepo.web.cern.ch/alirepo/RPMS/el7.x86_64
+baseurl=https://s3.cern.ch/swift/v1/alibuild-repo/RPMS/el7.x86_64/
 enabled=1
 gpgcheck=0
 EOF
@@ -93,7 +93,7 @@ what happens to the system packages. Configure it as follows:
 cat > /etc/yum.repos.d/alisw-upd-el7.repo <<EOF
 [alisw-upd-el7]
 name=ALICE Software - EL7
-baseurl=https://alirepo.web.cern.ch/alirepo/UpdRPMS/el7.x86_64
+baseurl=https://s3.cern.ch/swift/v1/alibuild-repo/UpdRPMS/el7.x86_64/
 enabled=1
 gpgcheck=0
 EOF
@@ -101,23 +101,6 @@ EOF
 
 Open a pull request to [this
 file](https://github.com/alisw/ali-bot/blob/master/publish/aliPublish-updatable-rpms.conf) to select
-what RPMs are generated.
-
-There is a third repository made of **updatable RPMs for testing purposes**. Configure it as
-follows:
-
-```bash
-cat > /etc/yum.repos.d/alisw-upd-test-el7.repo <<EOF
-[alisw-upd-el7]
-name=ALICE Software - EL7
-baseurl=https://alirepo.web.cern.ch/alirepo/UpdTestRPMS/el7.x86_64
-enabled=1
-gpgcheck=0
-EOF
-```
-
-Open a pull request to [this
-file](https://github.com/alisw/ali-bot/blob/master/publish/aliPublish-updatable-test-rpms.conf) to select
 what RPMs are generated.
 
 ## Find and install packages
