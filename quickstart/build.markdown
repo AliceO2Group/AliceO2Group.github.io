@@ -69,6 +69,5 @@ mkdir O2/objs
 cd O2/objs
 # FIXME: required because libofi is not exposed as a dependency.
 cmake .. -DBUILD_TEST_ROOT_MACROS=OFF -DOFI_ROOT=/opt/alisw/el7/ofi/v1.7.1-13 -DCMAKE_EXE_LINKER_FLAGS="-Wl,--unresolved-symbols=ignore-all"
-# FIXME: preload needed because apparently asiofi uses RUNPATH see https://github.com/FairRootGroup/asiofi/issues/7
-LD_PRELOAD=/opt/alisw/el7/ofi/v1.7.1-13/lib/libfabric.so.1 cmake --build . --target all -j40
+cmake --build . --target all -j40
 ```
