@@ -48,7 +48,7 @@ you can then load the build environment with:
 
 ```bash
 # FIXME: ignore the errors about missing files for now.
-. $WORK_DIR/$ALIBUILD_ARCH_PREFIX/O2/$O2_VERSION/etc/profile.d/init.sh
+. $WORK_DIR/$ALIBUILD_ARCH_PREFIX/O2/$O2FULLVERSION/etc/profile.d/init.sh
 
 # FIXME: needed because of an issue with O2 CMake detection of FairMQ deps
 export LD_LIBRARY_PATH=/opt/alisw/el7/ofi/v1.7.1-13/lib:$LD_LIBRARY_PATH
