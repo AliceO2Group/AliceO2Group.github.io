@@ -24,7 +24,6 @@ sudo yum install -y alisw-O2-customization+v1.0.0-2.x86_64 \
                  alisw-MPFR+v3.1.3-67                   \
                  alisw-googlebenchmark+1.3.0-42         \
                  alisw-defaults-release+v1-11           \
-                 alisw-MPFR+v3.1.3-67                   \
                  alisw-cub+1.8.0-4                      \
                  alisw-alibuild-recipe-tools+0.2.2-1    \
                  alisw-CMake+v3.19.2-5                  \
