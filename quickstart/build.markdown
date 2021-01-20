@@ -38,7 +38,7 @@ Then you need to configure a few environment variables:
 export WORK_DIR=/opt/alisw
 export ALIBUILD_ARCH_PREFIX=el7
 # FIXME: this will need to change according to the release.
-export O2_VERSION="v21.01-7"
+export O2FULLVERSION="v21.01-7"
 # FIXME: this is only needed because of an issue in RPM creation
 export MS_GSL_ROOT=/opt/alisw/el7/ms_gsl/2.1.0-2/
 ```
