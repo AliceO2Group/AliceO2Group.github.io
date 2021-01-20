@@ -50,8 +50,8 @@ you can then load the build environment with:
 # FIXME: ignore the errors about missing files for now.
 . $WORK_DIR/$ALIBUILD_ARCH_PREFIX/O2/$O2FULLVERSION/etc/profile.d/init.sh
 
-# FIXME: needed because of an issue with O2 CMake detection of FairMQ deps
-export LD_LIBRARY_PATH=/opt/alisw/el7/ofi/v1.7.1-13/lib:$LD_LIBRARY_PATH
+# FIXME:  ofi and lz4 have wrong init.sh. This works around the issue.
+export LD_LIBRARY_PATH=/opt/alisw/el7/lz4/v1.9.3-6/lib64:/opt/alisw/el7/ofi/v1.7.1-13/lib:$LD_LIBRARY_PATH
 ```
 
 Assuming that you have cloned your O2 with:
@@ -66,7 +66,6 @@ you can then build with:
 ```bash
 mkdir -p O2/objs
 cd O2/objs
-# FIXME: required because libofi is not exposed as a dependency.
-cmake .. -DBUILD_TEST_ROOT_MACROS=OFF -DOFI_ROOT=/opt/alisw/el7/ofi/v1.7.1-13 -DCMAKE_EXE_LINKER_FLAGS="-Wl,--unresolved-symbols=ignore-all"
+cmake .. 
 cmake --build . --target all -j40
 ```
