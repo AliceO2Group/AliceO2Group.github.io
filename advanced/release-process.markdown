@@ -26,7 +26,7 @@ version of O2.
 
 <script>
 function update() {
-  var targetMatcher = /(v[0-9].[0-9][0-9]*.[0-9][0-9]*)[a-z]*/;
+  var targetMatcher = /(v[0-9][0-9]*.[0-9][0-9]*.[0-9][0-9]*)[a-z]*/;
   var release = document.getElementById("release").value;
   var match = release.match(targetMatcher);
   if (match === null) {
