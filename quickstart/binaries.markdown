@@ -126,6 +126,22 @@ yum install -y alisw-Control+v20180613-1
 All its dependencies will be automatically downloaded. Note that, in the case of non-updatable RPMs, the version number is part of the
 actual package name.
 
+Notes on installing for RHEL8 / Centos 8
+----------------------------------------
+
+Instructions are similar to the above. You just need to use:
+
+```bash
+cat > /etc/yum.repos.d/alisw-el8.repo <<EOF
+[alisw-el7]
+name=ALICE Software - EL8
+baseurl=https://alirepo.web.cern.ch/alirepo/RPMS/el8.x86_64
+enabled=1
+gpgcheck=0
+EOF
+```
+
+
 ## Load packages
 
 You can load packages using the `aliswmod` command. 
