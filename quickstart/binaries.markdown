@@ -133,7 +133,7 @@ Instructions are similar to the above. You just need to use:
 
 ```bash
 cat > /etc/yum.repos.d/alisw-el8.repo <<EOF
-[alisw-el7]
+[alisw-el8]
 name=ALICE Software - EL8
 baseurl=https://alirepo.web.cern.ch/alirepo/RPMS/el8.x86_64
 enabled=1
