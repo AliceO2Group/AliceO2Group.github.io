@@ -75,3 +75,70 @@ cd O2/objs
 cmake .. 
 cmake --build . --target all -j40
 ```
+
+## Developing on the EPN (Experimental)
+
+This is intended for quick tests of the O2 code on the EPN, without having to go through the whole deployment cycle. It's not meant to be a way to deploy software.
+
+*NOTE*: for now this will only work using FLPSuite-0.15.1 as the packages to install might differ.
+
+```
+sudo yum install -y alisw-defaults-release+v1-1      \
+                    alisw-AliEn-CAs+v1-1             \
+                    alisw-libtirpc+libtirpc-1-1-4-1  \
+                    alisw-UUID+v2.27.1-1             \
+                    alisw-alibuild-recipe-tool+0.2.2-1 \
+                    alisw-Python-modules-list+1.0-1 \
+                    alisw-bz2+1.0.8-1 \
+                    alisw-flatbuffers+v1.11.0-1 \
+                    alisw-RapidJSON+v1.1.0-alice2-1 \
+                    alisw-double-conversion+v3.1.5-1 \
+                    alisw-re2+2019-09-01-1 \
+                    alisw-googletest+1.8.0-1 \
+                    alisw-capstone+4.0.2-1 \
+                    alisw-GMP+v6.0.0-1 \
+                    alisw-MPFR+v3.1.3-1 \
+                    alisw-googlebenchmark+1.3.0-1 \
+                    alisw-O2-customization/v1.0.0-1
+```
+
+Then you need to configure a few environment variables every time you login:
+
+```
+export WORK_DIR=/opt/alisw
+export ALIBUILD_ARCH_PREFIX=el8
+# FIXME: this will need to change according to the release.
+export O2FULLVERSION="v21.07-1"
+```
+
+which will allow you to load the build environment with:
+
+```bash
+# Ignore the errors about missing files for now. Fixed upstream.
+. $WORK_DIR/$ALIBUILD_ARCH_PREFIX/O2/$O2FULLVERSION/etc/profile.d/init.sh
+```
+
+Assuming that you have cloned your O2 with:
+
+```bash
+git config --global http.proxy http://10.161.58.101:8080
+git clone https://github.com/AliceO2Group/AliceO2 O2
+```
+
+you can then build with:
+
+```bash
+mkdir -p O2/objs
+cd O2/objs
+cmake .. 
+cmake --build . --target all -j40
+```
+
+In order to run you need to make sure you have `stage/bin` in PATH and `stage/lib64` in LD_LIBRARY_PATH:
+
+```bash
+export PATH=$PWD/stage/bin:$PATH
+export LD_LIBRARY_PATH=$PWD/stage/lib64:$LD_LIBRARY_PATH
+```
+
+(alternatively you can use `--target install` but that will override the current installation).
