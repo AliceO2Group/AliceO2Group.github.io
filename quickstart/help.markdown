@@ -24,4 +24,8 @@ Mattermost
 ==========
 To chat with other O2 developers we mostly use Mattermost. 
 
+Analysis
+========
+The entry point to the analysis documentation is here: https://aliceo2group.github.io/analysis-framework/
+
 Go to https://mattermost.web.cern.ch, login with your CERN credentials and choose the Team "ALICE".
