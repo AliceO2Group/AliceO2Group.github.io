@@ -28,5 +28,5 @@ Go to https://mattermost.web.cern.ch, login with your CERN credentials and choos
 
 Analysis
 ========
-The entry point to the analysis documentation is here: https://aliceo2group.github.io/analysis-framework/
+The entry point to the analysis documentation is here: [https://aliceo2group.github.io/analysis-framework/](https://aliceo2group.github.io/analysis-framework/).
 
